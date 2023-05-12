@@ -221,7 +221,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    .btn {
+    .btn_nav {
       width: 12rem;
       padding: 1.2rem;
       color: $black_color;
@@ -319,7 +319,7 @@ body {
     .nav_header {
       display: flex;
       justify-content: space-between;
-      .btn {
+      .btn_nav {
         letter-spacing: 2px;
         padding: 10px;
         margin-bottom: 1rem;
@@ -385,7 +385,7 @@ body {
     }
     .nav_header {
       margin: 1rem;
-      .btn {
+      .btn_nav {
         text-align: center;
         letter-spacing: 4px;
         padding: 5px;

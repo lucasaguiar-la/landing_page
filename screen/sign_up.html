@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="../images/index/fav_icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <style>
+      @font-face {
+  font-family: myFirstFont;
+  src: url(../sass/fonts/Game\ On_PersonalUseOnly.ttf);
+}
+
+.title {
+  font-family: myFirstFont;
+}
+    </style>
+    <title>Cadastre-se</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Crie sua conta</h1>
+      <div class="icon_images">
+        <a href="#"
+          ><img
+            src="../images/sign_up/google_link.png"
+            alt="icone_google"
+            class="img"
+        /></a>
+        <a href="#"
+          ><img
+            src="../images/sign_up/facebook_link.png"
+            alt="icone_facebook"
+            class="img"
+        /></a>
+        <a href="#"
+          ><img
+            src="../images/sign_up/linkedin_link.png"
+            alt="icone_linkedin"
+            class="img"
+        /></a>
+      </div>
+      <p>ou</p>
+      <form action="#">
+        <div class="user_info">
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Nome Completo*"
+              required
+              class="box"
+            />
+          </div>
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Nome de Usuário*"
+              required
+              class="box"
+            />
+          </div>
+          <div class="input_box">
+            <input type="text" placeholder="Email*" required class="box" />
+          </div>
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Número de Cel.*"
+              required
+              class="box"
+            />
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Senha*" required class="box" />
+          </div>
+          <div class="input_box">
+            <input
+              type="password"
+              placeholder="Confirme sua senha*"
+              required
+              class="box"
+            />
+          </div>
+        </div>
+        <div class="gender_box">
+          <h2 class="gender_title">Gênero*</h2>
+          <div class="category">
+            <label for="Male">
+              <input type="radio" name="radio" id="radio" />
+              <label for="gender" class="gender">Homem</label for="gender">
+            </label>
+            <label for="Female">
+              <input type="radio" name="radio" id="radio" />
+              <label for="gender" class="gender">Mulher</label for="gender">
+            </label>
+            <label for="other" class="other">
+              <input type="radio" name="radio" id="radio" />
+              <label class="gender">Prefiro não informar</label>
+            </label>
+          </div>
+        </div>
+        <div class="btn_box">
+          <input type="submit" value="Cadastrar-se" class="btn" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

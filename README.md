@@ -10,4 +10,4 @@ Uma landing page que faz chamada para uma escola de cursos de circo. A plataform
 # Link
 
 Confira esse projeto através do link:
-* https://lucas-aguiar-la.github.io/Landing-page/screen/index
+* https://lucas-aguiar-la.github.io/Landing-page/screen/index.html

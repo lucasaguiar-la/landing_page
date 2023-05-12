@@ -21,6 +21,7 @@ body {
 
 // Formatação do cabeçalho
 #header_container {
+  width: 100%;
   padding: 1.25rem;
   border: 1px solid $black_color;
   border-width: 0 1px 1px 1px;
@@ -36,7 +37,7 @@ body {
     gap: 5px 10px;
     grid-template-columns: 1fr 1fr;
 
-    .btn {
+    .btn_nav {
       padding: 0.7rem;
       color: $black_color;
       font-size: 1.25rem;
@@ -85,7 +86,7 @@ body {
       position: relative;
       &::after {
         content: "";
-        background-image: url(../image/dash.png);
+        background-image: url("../image/dash.png");
         position: absolute;
         height: 40px;
         width: 40px;
@@ -201,6 +202,7 @@ body {
 
 // Formatação do rodapé
 #footer_container {
+  width: 100%;
   padding: 1.25rem;
   border: 1px solid black;
   border-width: 0 1px 1px 1px;

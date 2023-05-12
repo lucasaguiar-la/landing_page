@@ -130,25 +130,26 @@ body {
 
 .btn_box {
   width: 100%;
-}
-
-.btn {
-  margin-left: 60%;
-  cursor: pointer;
-  color: $black_color;
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: 2px solid $black_color;
-  width: 10rem;
-  padding: 10px;
-  background-color: transparent;
-  box-shadow: 3px 3px 0px $black_color;
-  background: ($yellow_color);
-  transition: 0.4s;
-  &:hover {
-    color: $yellow_color;
-    background-color: $red_color;
+  display: flex;
+  justify-content: space-between;
+  .btn,
+  .back_btn {
+    cursor: pointer;
+    color: $black_color;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid $black_color;
+    width: 10rem;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 3px 3px 0px $black_color;
+    background: ($yellow_color);
+    transition: 0.4s;
+    &:hover {
+      color: $yellow_color;
+      background-color: $red_color;
+    }
   }
 }
 
@@ -157,9 +158,6 @@ body {
     padding: 10px;
     font-size: 18px;
     display: flex;
-  }
-  .btn {
-    margin-left: 60%;
   }
 }
 
@@ -179,8 +177,5 @@ body {
     margin: 15px;
     font-size: 18px;
     font-weight: 500;
-  }
-  .btn {
-    margin-left: 70%;
   }
 }

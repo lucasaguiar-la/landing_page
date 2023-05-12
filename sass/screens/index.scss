@@ -86,7 +86,7 @@ body {
       position: relative;
       &::after {
         content: "";
-        background-image: url("../image/dash.png");
+        background-image: url("../assets/dash.png");
         position: absolute;
         height: 40px;
         width: 40px;
@@ -116,7 +116,7 @@ body {
     &::after {
       content: "";
       cursor: auto;
-      background-image: url("../image/up_arrow.png");
+      background-image: url("../assets/up_arrow.png");
       background-repeat: no-repeat;
       position: absolute;
       height: 200px;

@@ -2,7 +2,7 @@
 
 <img width = "1200px" src="https://github.com/Lucas-Aguiar-La/Landing-page/assets/108820269/784871f0-09e7-47c8-a084-e19a6d4d79cb">
 
-<img width = "300px" src="https://github.com/Lucas-Aguiar-La/Landing-page/assets/108820269/6e976c03-2129-4ac5-ad5e-7ac4d4970c0a">
+<img width = "500px" src="https://github.com/Lucas-Aguiar-La/Landing-page/assets/108820269/6e976c03-2129-4ac5-ad5e-7ac4d4970c0a">
 
 # Descrição
 
